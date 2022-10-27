@@ -7,21 +7,26 @@ The purpose of this project is to find the a golden year of video games by ident
 
 This project was developed in SQL Server.
 
-Tables:
-game_sales
-column	        type	meaning
-Game	        varchar	Name of the video game
-Platform	    varchar	Gaming platform
-Publisher	    varchar	Game publisher
-Developer	    varchar	Game developer
-Games_Sold	    float	Number of copies sold (millions)
-Release_Year	int	    Release year
+Table_1: `game_sales`
 
-game_reviews
-column	        type	meaning
-game	        varchar	Name of the video game
-critic_score	float	Critic score according to Metacritic
-user_score	    float	User score according to Metacritic
+| column | type | meaning |
+| :--- | :--- | :--- |
+| Game | varchar | Name of the video game |
+| Platform | varchar | Gaming platform |
+| Publisher | varchar	| Game publisher |
+| Developer | varchar	| Game developer |
+| Games_Sold | float	| Number of copies sold (millions) |
+| Release_Year | int | Release year |
+
+</br>
+
+Table_2: `game_reviews`
+
+| column | type | meaning |
+| :--- | :--- | :--- |
+| game | varchar | Name of the video game |
+| critic_score | float | Critic score according to Metacritic |
+| user_score | float | User score according to Metacritic |
 
 
 Dataset: https://www.kaggle.com/datasets/holmjason2/videogamedata
